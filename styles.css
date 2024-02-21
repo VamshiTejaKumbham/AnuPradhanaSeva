@@ -244,13 +244,23 @@ button:hover {
 
 .F-Cof{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 0px;
     margin-top: 50px;    
 }
 
 
-#f, #cof{
+#f{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 500px;
+    filter: drop-shadow(0 0 0.75rem rgb(105, 83, 87));
+} 
+
+#cof{
     width: 150px;
     height: 150px;
     display: block;
